@@ -61,7 +61,7 @@ async def xcrapper(event):
             f.write(parsed)
     await Ubot.send_file(event.peer_id,
                          f'{target}.txt', 
-                         caption=f'**CC Scrapper\nTarget: {target}\nNo. of cards after cleanup: {len(LIST)}\nUserBotBy-» @Xbinner2**',
+                         caption=f'**CC Scrapper\nTarget: {target}\nNo. of cards after cleanup: {len(LIST)}\nUserBotBy-» @censored_politicss**',
                          force_document=True)
     os.remove(f'{target}.txt')
 
